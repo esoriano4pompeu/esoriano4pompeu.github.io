@@ -74,10 +74,9 @@ body {
     <h1>És millor la coliflor ecològica o conenvional?</h1>
     <p>He buscat a <a herf="https://scholar.google.com">Google acadèmic.</a></p>
     <p>He trobat un article escrit per Picchi et al. (2012) que analitza si hi ha diferències entre la coliflor
-    cultivada conevncionalment i cultivada ecològicament pel que fa al
-    contingut de nutrients.
+    cultivada conevncionalment i cultivada ecològicament pel que fa al contingut de nutrients.
     <img.src="resultats.jpg">
-    <p>En la imatge de dalt podem veure un gràfic de barres on es comparen: 
+    <p>En la imatge de dalt podem veure una taula on es comparen: 
     Els compostos són </p>
     <ul>
        
