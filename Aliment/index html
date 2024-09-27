@@ -75,12 +75,15 @@ body {
     <p>He buscat a <a herf="https://scholar.google.com">Google acadèmic.</a></p>
     <p>He trobat un article escrit per Picchi et al. (2012) que analitza si hi ha diferències entre la coliflor
     cultivada conevncionalment i cultivada ecològicament pel que fa al contingut de nutrients.
-    <img.src="resultats.jpg">
-    <p>En la imatge de dalt podem veure una taula on es comparen: 
-    Els compostos són </p>
-    <ul>
-       
-    </ul>
+    <img.src="resultat.jpg">
+    <p>En la imatge de dalt podem veure una taula on es comparen la coliflor de cultiu ecològic i de cultiu convencional, concretament
+es mira els nivells d'àcid ascòrbic que és vitamina C, polifenols totals, tiols i caratenoides totals. Sembla que hi ha menys vitamina C
+en les coliflors ecològiques varietat Emeraude i no hi ha diferències en el nivell de vitamina C en les coliflors de la varietat Magnifico.
+En el cas dels polifenols totals que són uns productes antioxidants saludables s'observa que els polifenols totals també estan en menor proporció
+en coliflor ecològica Emeraude i en canvi en la varietat Magnifico passa a l'inrevés, l'ecològic és millor perquè té més polifenols.
+Els tiols són iguals en la varietat Emeraude i en la varietat Magnifico hi ha menys tiols en les coliflors ecològiques.
+Totes les coliflors tenen el mateix nivell de carotenoides. </p>
+    
 </div>
 
 <!-- Scripts necessaris -->
