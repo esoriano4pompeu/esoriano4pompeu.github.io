@@ -177,18 +177,18 @@ function draw() {
     //fill(r,g,b);//aquesta línea nova omple de color rgb i l'anterior feia el contorn.
     //the previous line fills the shapes below with the rgb colors obtained from sound frequencies (bass and treble) and volume (level) 
 
-    // Dibuixar múltiples formes (cors, llunes o arcs de Sant Martí)
+    //Dibuixar múltiples formes (cors, llunes o arcs de Sant Martí)
     shapes.forEach(shape => {
       push();
       translate(shape.x, shape.y);
       scale(size);
 
       if (selectedShape === 'heart') {
-          drawHeart(); // Dibuixa el cor
+          //drawHeart(); // Dibuixa el cor
       } else if (selectedShape === 'moon') {
-          drawCrescentMoon(); // Dibuixa la lluna creixent
+          //drawCrescentMoon(); // Dibuixa la lluna creixent
       } else if (selectedShape === 'rainbow') {
-          drawRainbow(); // Dibuixa l'arc de Sant Martí
+          //drawRainbow(); // Dibuixa l'arc de Sant Martí
       }
 
       pop();
