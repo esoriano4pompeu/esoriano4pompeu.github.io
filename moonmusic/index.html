@@ -9,22 +9,38 @@ El title es veu a la pestanya. També podem posar els estils dins del heart o en
 Els estils són un altre llenguatge de programació diferent anomenat css que significa full d'estils en cascada.
 Dins dels estils posem característiques com els contorns o marges, la separació entre línies , si el text està centrat
 o a un costat, els colors de les lletres i fons, el tipues de lletra. A diferència de HTML no utilitza marques amb aquests símbols
-< > si no que escriu el nom d la marca {propietat1: valor1; propietat2: valor2} per exemple: -->
+< > si no que escriu el nom de la marca {propietat1: valor1; propietat2: valor2} per exemple: -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heart, Crescent Moon, and Rainbow Animation</title>
+    <title>Moving Shapes</title>
     <style> 
         body {
             border: 5px;/* això farà que tot el cos del codi (body) tingui 5 píxels de gruix en totes direccions.*/
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: center;/*alinia tot en el centre*/
             justify-content: center;
             min-height: 100vh;
-            background-color: #0d335f;
+            background-color: #0d335f;/*color de fons*/
+            /*Els colors es poden escriure amb el seu nom en anglès. 
+            Es poden escriure amb RGB(red, green, blue) i podem posar un número, dos 
+            números, tres números i quatre números. Si posem un sol número és l'escala de 
+            grisos sent 0 negre i 225 blanc(127 seria gris, un gris fosc seria 200 i un gris clar 50).
+            Si posem dos números el primer és l'escala de grisos i el segon la transperència o canal alfa.
+            Sent 0 transparent i 255 opac (127 semi transparent).
+            Si posem tres números són red, green and blue. Per exemple 255,0,0 és el vermell més fort; 
+            0,255,0 és el verd més intens; 0,0,255 és el blau més fort. Quants colors diferents tenim? 
+            255x255x255= 16.700.000 colors diferents. Si escric color picker RGB HTML puc trobar qualsevol 
+            color, per exemple, un estil de rosa és rgb(255, 51, 153). Aquest mateix color de rosa el puc posar
+            en números hexadecimal. Els números hexadecimals són del zero al nou, el 10 és A, 11 és B, 
+            12 és C, 13 és D, 14 és E i 15 és F, i així tenim 16 números diferents que és el significat hexadecimal.
+            El número FF0000 és igual que 255,0,0; el número 00FF és igual que 0,255,0; 0000FF és igual que 0,0,255. 
+            Per què FF és igual a 255? 255= 2x10^2 + 5x10^1 + 5x10^0 = 200 + 50 +5 i FF és en base 16, no en base 10.
+            FF= 15x16^1 + 15x16^0 = 240 + 15 = 255. Quant és CACA00? CA= 12x16^1 + 10x16^0 = 202
+            CACA00 seria 202,202,0 que és un color groc.
             margin: 0;
             padding: 20px;
             box-sizing: border-box;
