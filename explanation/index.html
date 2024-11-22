@@ -66,7 +66,27 @@
 
 <!-- Contingut principal -->
 <div class="content-container">
-    <h1>Benvinguts a la web d'Elna.</h1>
+    <h1>Explicació del codi</h1>
+    <prep><code>
+        let fft;//crea espai a la memòria anomenat FFT
+        fft=new p5.FFT();//crea objecte de la classe que té totes les característiques d'una transformada de Fourier ràpida.
+        //let elna; crearia un espai a la memòria per un objecte anomenat elna
+        //elna=new Homosàpiens(); crearia un objecte de la classe Homosàpiensamb totes les característiques
+        //per exempele el mètode getEnergy()faria la característica humana de menjar 
+        //si vull fer menjar a l'elnahe d'escriure elna.getEnergy();  això es diu el mètode del punt que al posar un punt
+        //aplico un mètode, per fer-lo estudiar seria elna.study(). Study i getEnergy són mètodes de la classe Homosàpiens.
+        let bass=fft.getEnergy("bass");//crea variable greu
+        //getEnergy("bass") calcula l'energia de totes les freqüències greus i dona el número etre 0 i 255 i aquest número el
+        //guarda en una variable anomenada bass
+        let treble=fft.getEnergy("treble");//crea variable aguda
+        // calcula l'energia de totes les freqüències agudes i dona el número entre 0 i 255 i el guardes a treble
+        let r=map(bass,0,255,50,255);//crea color vermell
+        //la línia anterior converteix els sons aguts en tons vermellosos perquè l'hem anomenat r de red, ara mateix no és un color,
+        //és un número però quan faci fill(r,0,0); donarà tons vermellosos, perquè fill omple de color.
+        //si posés fill(bass,0,0);també funcionaria perquè el bass va entre 0 i 255 i el color també
+        let g=map(treble,0,255,50,255);//crea color verd
+        //fem un truc de mapejar els valors petits de bassa valors una mica més grans de r que canvien el 0 per 50.
+    </code></prep>
     <p> Em dic Elna i soc alumna de 4t B de digitalització. Farem diferents projectes:</p>
     <ul> 
         <li><b>Projecte aliments ecològics i convencionals</b>: he buscat articles científics per saber si hi ha més nutrients en els aliments ecològics que els convencionals. En el meu cas he analitzat la coliflor.</li>
