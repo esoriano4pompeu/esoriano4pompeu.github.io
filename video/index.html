@@ -4,19 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coldplay Student Videos 2</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
-  
-
 </head>
 <body>
   <h1>My video</h1>
-    <!-- Vídeo Elna -->
+    <!--Vídeo Elna -->
     <div class="video-item">
-      <video class="lazy-video" controls poster="" data-src="videoelna.mp4">
+      <video class="lazy-video" controls poster="" data-src="videoelna.mp4"> <!-- la paraula vídeo introdueix un vídeo; la paraula controls introdueix el play, 
+l'stop; la paraula poster introdueix una imatge que sortirà enganxada a sobre del vídeo al principi, per exemple, poster="imatge.png" seria una imatge nova que 
+sortiria al principi del vídeo (només he de pujar aquesta imatge). Per últim data-src significa la font (source=data-src) que conté el nom de vídeo.
+Dins de l'etiqueta <video> puc posar el mateix que a l'etiqueta <img>, és a dir, width que significa amplada en píexels i height altura en píxels. 
+Quins valors pot tenir un vídeo? Depèn de la ressolució de la pantalla, per exemple, una pantalla hd (alta definició) té 1280 píxels x 720 píxels (s'escriuria 
+<video width="1280" height="720"controls poster="" data-src="videoelna.mp4">). Altres resolucions són SD (resolució estàndard o standard definition que inclou 640 x 480 píxels, 
+480 x 360 píxels i 426 x 240 píxels). 
+Hi ha la full HD que és de 1080 píxels d'alçada. Quant seria l'amplada? Tindrà la mateixa proporció que HD. 
+1080 d'alçada multiplicada per la proporció (1280 : 720 = 1,777), és a dir 1920 píxels. I per últim, la resolució 4K que és l'ultra HD, que té 2160 píxels d'alçada, quant fa d'amplada?  
+3840 que és igual a 2160 x 1,777. Quina mida té un píxel a la pantalla? Per saber la mida d'un píxel a una pantalla he de saber la mida de la pantalla en mm i el número de píxels que té. 
+La pantalla 4K té 2160 x 3840 = 8.249.400 píxels. 
         Your browser does not support the video tag.
       </video>
     </div>
-  
   </div>
   <script src="../assets/js/lazyload.js"></script>
 </body>
