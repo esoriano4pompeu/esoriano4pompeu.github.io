@@ -152,37 +152,78 @@
       switch (dominant) {
         case 'happy':
           stroke(255,200,0); // groc
-          beginShape();
-          for (let a = 0; a < TWO_PI; a += PI/8) {
-            let r = 100 + 25 * sin(a * 8);
-            let x = VIRTUAL_W/2 + r * cos(a);
-            let y = VIRTUAL_H/2 + r * sin(a);
-            vertex(x, y); // vèrtex positiu
-          }
-          endShape(CLOSE);
+       beginShape();//ull dret
+vertex(272, 340.1875);
+vertex(276, 334.1875);
+vertex(284, 330.1875);
+vertex(295, 329.1875);
+vertex(307, 331.1875);
+vertex(317, 335.1875);
+vertex(322, 339.1875);
+vertex(315, 346.1875);
+vertex(304, 349.1875);
+vertex(292, 347.1875);
+vertex(280, 344.1875);
+vertex(272, 340.1875);
+endShape(CLOSE);
           break;
 
         case 'sad':
           stroke(50,100,200,150); // blau
-          beginShape();
-          for (let x = 0; x <= 400; x += 40)
-            vertex(200 + x, 300 + 100 * intensity);
-          for (let x = 400; x >= 0; x -= 40)
-            vertex(200 + x, 300 - 50 * intensity);
-          endShape(CLOSE);
+         beginShape();//boca
+vertex(216, 458.1875);
+vertex(233, 454.1875);
+vertex(244, 454.1875);
+vertex(254, 454.1875);
+vertex(265, 456.1875);
+vertex(279, 461.1875);
+vertex(286, 464.1875);
+vertex(270, 470.1875);
+vertex(258, 471.1875);
+vertex(249, 469.1875);
+vertex(232, 469.1875);
+vertex(220, 463.1875);
+vertex(216, 459.1875);
+endShape(CLOSE);
           break;
 
         case 'angry':
           stroke(200,0,0,150); // vermell
-          beginShape();
-          for (let i = 0; i < 16; i++) {
-            let angle = map(i, 0, 16, 0, TWO_PI);
-            let r = i % 2 ? 100 : 175;
-            let x = VIRTUAL_W/2 + r * cos(angle);
-            let y = VIRTUAL_H/2 + r * sin(angle);
-            vertex(x, y);
-          }
-          endShape(CLOSE);
+         beginShape();//cella dreta
+vertex(248, 323.1875);
+vertex(258, 316.1875);
+vertex(276, 312.1875);
+vertex(293, 313.1875);
+vertex(314, 318.1875);
+vertex(327, 322.1875);
+vertex(341, 328.1875);
+vertex(336, 332.1875);
+vertex(325, 330.1875);
+vertex(325, 330.1875);
+vertex(312, 326.1875);
+vertex(298, 324.1875);
+vertex(285, 322.1875);
+vertex(274, 322.1875);
+vertex(258, 325.1875);
+vertex(248, 325.1875);
+endShape(CLOSE);
+
+beginShape();//cella esquerra
+vertex(220, 321.1875);
+vertex(214, 314.1875);
+vertex(200, 312.1875);
+vertex(188, 313.1875);
+vertex(175, 315.1875);
+vertex(165, 318.1875);
+vertex(162, 324.1875);
+vertex(164, 326.1875);
+vertex(172, 326.1875);
+vertex(182, 322.1875);
+vertex(196, 322.1875);
+vertex(207, 322.1875);
+vertex(218, 324.1875);
+vertex(220, 321.1875);
+endShape(CLOSE);
           break;
 
         case 'fearful':
