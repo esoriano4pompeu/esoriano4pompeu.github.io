@@ -253,15 +253,24 @@ endShape(CLOSE);
 
         case 'surprised':
           stroke(0,150,255,150); // blau clar
-          beginShape();
-          for (let i = 0; i < 20; i++) {
-            let angle = random(TWO_PI);
-            let r = 50 + 100 * intensity;
-            let x = VIRTUAL_W/2 + r * cos(angle);
-            let y = VIRTUAL_H/2 + r * sin(angle);
-            vertex(x, y);
-          }
-          endShape(CLOSE);
+        beginShape();
+vertex(215, 461.1875);
+vertex(220, 450.1875);
+vertex(229, 445.1875);
+vertex(245, 442.1875);
+vertex(259, 442.1875);
+vertex(273, 446.1875);
+vertex(283, 457.1875);
+vertex(284, 471.1875);
+vertex(284, 483.1875);
+vertex(277, 494.1875);
+vertex(263, 499.1875);
+vertex(245, 498.1875);
+vertex(229, 493.1875);
+vertex(219, 479.1875);
+vertex(215, 468.1875);
+vertex(215, 461.1875);
+endShape();
           break;
 
         case 'disgusted':
