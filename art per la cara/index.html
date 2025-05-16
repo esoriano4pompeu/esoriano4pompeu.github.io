@@ -67,8 +67,8 @@
     let modelsMostrats = false;
 
     // Mida virtual que es manté proporcional a qualsevol pantalla
-    const VIRTUAL_W = 800;
-    const VIRTUAL_H = 600;
+    const VIRTUAL_W = 600;
+    const VIRTUAL_H = 728;
 
     // Funció que es crida al començar
     function setup() {
@@ -151,7 +151,7 @@
 
       switch (dominant) {
         case 'happy':
-          stroke(255,200,0); // groc
+         stroke(228, 234, 242);// blanc, gris
        beginShape();//ull dret
 vertex(272, 340.1875);
 vertex(276, 334.1875);
@@ -166,6 +166,7 @@ vertex(292, 347.1875);
 vertex(280, 344.1875);
 vertex(272, 340.1875);
 endShape(CLOSE);
+           stroke(255,200,0); // groc
           beginShape();//pupil·la dreta
 vertex(300, 331.1875);
 vertex(295, 333.1875);
@@ -181,7 +182,7 @@ vertex(307, 333.1875);
 vertex(302, 331.1875);
 vertex(300, 331.1875);
 endShape(CLOSE);
-          stroke(255,200,0); // groc
+         stroke(228, 234, 242);// blanc, gris
           beginShape();//ull esquerre
 vertex(174, 335.1875);
 vertex(179, 331.1875);
@@ -197,6 +198,7 @@ vertex(186, 343.1875);
 vertex(179, 339.1875);
 vertex(173, 336.1875);
 endShape(CLOSE);
+          stroke(255,200,0); // groc
           beginShape();//pupil·la esquerra
 vertex(185, 333.1875);
 vertex(188, 329.1875);
@@ -211,7 +213,7 @@ vertex(190, 340.1875);
 vertex(186, 336.1875);
 vertex(184, 333.1875);
 endShape(CLOSE);
-          stroke(200, 200, 84); // groc
+         stroke(117, 104, 87); // marró
            beginShape();//cella dreta
 vertex(248, 323.1875);
 vertex(258, 316.1875);
@@ -230,7 +232,7 @@ vertex(274, 322.1875);
 vertex(258, 325.1875);
 vertex(248, 325.1875);
 endShape(CLOSE);
-          stroke(200, 200, 84); // groc
+          stroke(117, 104, 87); // marró
 beginShape();//cella esquerra
 vertex(220, 321.1875);
 vertex(214, 314.1875);
@@ -266,7 +268,7 @@ vertex(224, 449.1875);
 vertex(212, 444.1875);
 vertex(215, 454.1875);
 endShape(CLOSE);
-          stroke(195, 200, 110); // groc
+          stroke(231, 227, 179); // color salmó
           beginShape();//nas
 vertex(222, 344.1875);
 vertex(218, 356.1875);
@@ -480,6 +482,41 @@ vertex(190, 340.1875);
 vertex(186, 336.1875);
 vertex(184, 333.1875);
 endShape(CLOSE);
+            stroke(117, 104, 87); // marró
+          beginShape();//cella dreta
+vertex(261, 323.1875);
+vertex(265, 316.1875);
+vertex(276, 312.1875);
+vertex(290, 313.1875);
+vertex(306, 317.1875);
+vertex(320, 319.1875);
+vertex(332, 321.1875);
+vertex(340, 325.1875);
+vertex(339, 329.1875);
+vertex(329, 331.1875);
+vertex(317, 327.1875);
+vertex(298, 322.1875);
+vertex(286, 322.1875);
+vertex(272, 325.1875);
+vertex(262, 325.1875);
+vertex(260, 322.1875);
+endShape(CLOSE);
+           stroke(117, 104, 87); // marró
+          beginShape();//cella esquerra
+vertex(158, 324.1875);
+vertex(162, 318.1875);
+vertex(176, 312.1875);
+vertex(188, 311.1875);
+vertex(205, 312.1875);
+vertex(217, 318.1875);
+vertex(218, 327.1875);
+vertex(206, 323.1875);
+vertex(191, 321.1875);
+vertex(176, 324.1875);
+vertex(165, 331.1875);
+vertex(156, 331.1875);
+vertex(156, 324.1875);
+endShape(CLOSE);
            stroke(179, 94, 86); // vermell
           beginShape();//boca trista
 vertex(212, 458.1875);
@@ -498,7 +535,7 @@ vertex(215, 466.1875);
 vertex(207, 468.1875);
 vertex(211, 458.1875);
 endShape(CLOSE);
-          stroke(231, 227, 179); // salmó
+          stroke(231, 227, 179); // color salmó
           beginShape();//nas
 vertex(222, 344.1875);
 vertex(218, 356.1875);
@@ -714,25 +751,62 @@ vertex(190, 340.1875);
 vertex(186, 336.1875);
 vertex(184, 333.1875);
 endShape(CLOSE);
-           stroke(179, 94, 86); // vermell
-          beginShape();//boca trista
-vertex(212, 458.1875);
-vertex(222, 450.1875);
-vertex(234, 448.1875);
-vertex(248, 448.1875);
-vertex(257, 448.1875);
-vertex(274, 454.1875);
-vertex(284, 462.1875);
-vertex(286, 471.1875);
-vertex(279, 471.1875);
-vertex(263, 467.1875);
-vertex(248, 467.1875);
-vertex(230, 465.1875);
-vertex(215, 466.1875);
-vertex(207, 468.1875);
-vertex(211, 458.1875);
+          stroke(117, 104, 87); // marró
+          beginShape();//cella dreta
+vertex(258, 323.1875);
+vertex(268, 316.1875);
+vertex(281, 309.1875);
+vertex(290, 306.1875);
+vertex(302, 305.1875);
+vertex(313, 305.1875);
+vertex(326, 305.1875);
+vertex(333, 307.1875);
+vertex(335, 310.1875);
+vertex(329, 313.1875);
+vertex(318, 313.1875);
+vertex(306, 315.1875);
+vertex(294, 315.1875);
+vertex(286, 318.1875);
+vertex(273, 324.1875);
+vertex(264, 326.1875);
+vertex(257, 324.1875);
 endShape(CLOSE);
-          stroke(231, 227, 179); // salmó
+           stroke(117, 104, 87); // marró
+        beginShape();//cella esquerra
+vertex(216, 321.1875);
+vertex(208, 314.1875);
+vertex(196, 308.1875);
+vertex(187, 305.1875);
+vertex(178, 306.1875);
+vertex(168, 308.1875);
+vertex(162, 313.1875);
+vertex(160, 318.1875);
+vertex(164, 319.1875);
+vertex(172, 318.1875);
+vertex(183, 316.1875);
+vertex(191, 316.1875);
+vertex(197, 318.1875);
+vertex(207, 323.1875);
+vertex(217, 326.1875);
+vertex(216, 321.1875);
+endShape(CLOSE);
+           stroke(179, 94, 86); // vermell
+         beginShape();//boca
+vertex(217, 455.1875);
+vertex(227, 451.1875);
+vertex(237, 451.1875);
+vertex(245, 454.1875);
+vertex(257, 454.1875);
+vertex(267, 456.1875);
+vertex(272, 460.1875);
+vertex(267, 464.1875);
+vertex(257, 471.1875);
+vertex(246, 472.1875);
+vertex(234, 472.1875);
+vertex(227, 467.1875);
+vertex(218, 457.1875);
+endShape();
+          stroke(235, 161, 153); // vermell clar
           beginShape();//nas
 vertex(222, 344.1875);
 vertex(218, 356.1875);
@@ -886,17 +960,546 @@ endShape(CLOSE);
           break;
 
         case 'fearful':
-          stroke(100,100,100,150); // gris
-          beginShape();
-          for (let x = 0; x <= VIRTUAL_W; x += 10) {
-            let y = VIRTUAL_H/2 + 50 * sin((x - VIRTUAL_W/2) * 0.05) * intensity;
-            vertex(x, y);
-          }
-          endShape();
+         stroke(228, 234, 242);// blanc, gris
+       beginShape();//ull dret 
+vertex(272, 340.1875);
+vertex(276, 334.1875);
+vertex(284, 330.1875);
+vertex(295, 329.1875);
+vertex(307, 331.1875);
+vertex(317, 335.1875);
+vertex(322, 339.1875);
+vertex(315, 346.1875);
+vertex(304, 349.1875);
+vertex(292, 347.1875);
+vertex(280, 344.1875);
+vertex(272, 340.1875);
+endShape(CLOSE);
+           stroke(177, 172, 172); // gris
+          beginShape();//pupil·la dreta
+vertex(300, 331.1875);
+vertex(295, 333.1875);
+vertex(293, 337.1875);
+vertex(293, 340.1875);
+vertex(295, 342.1875);
+vertex(298, 344.1875);
+vertex(303, 344.1875);
+vertex(307, 343.1875);
+vertex(310, 341.1875);
+vertex(311, 336.1875);
+vertex(307, 333.1875);
+vertex(302, 331.1875);
+vertex(300, 331.1875);
+endShape(CLOSE);
+        stroke(228, 234, 242);// blanc, gris
+          beginShape();//ull esquerre
+vertex(174, 335.1875);
+vertex(179, 331.1875);
+vertex(187, 327.1875);
+vertex(195, 328.1875);
+vertex(204, 330.1875);
+vertex(213, 332.1875);
+vertex(214, 336.1875);
+vertex(210, 340.1875);
+vertex(204, 343.1875);
+vertex(196, 345.1875);
+vertex(186, 343.1875);
+vertex(179, 339.1875);
+vertex(173, 336.1875);
+endShape(CLOSE);
+           stroke(177, 172, 172); // gris
+          beginShape();//pupil·la esquerra
+vertex(185, 333.1875);
+vertex(188, 329.1875);
+vertex(193, 327.1875);
+vertex(199, 329.1875);
+vertex(205, 331.1875);
+vertex(206, 336.1875);
+vertex(204, 339.1875);
+vertex(200, 341.1875);
+vertex(196, 342.1875);
+vertex(190, 340.1875);
+vertex(186, 336.1875);
+vertex(184, 333.1875);
+endShape(CLOSE);
+          stroke(117, 104, 87); // marró
+          beginShape();//cella dreta
+vertex(261, 323.1875);
+vertex(265, 316.1875);
+vertex(276, 312.1875);
+vertex(290, 313.1875);
+vertex(306, 317.1875);
+vertex(320, 319.1875);
+vertex(332, 321.1875);
+vertex(340, 325.1875);
+vertex(339, 329.1875);
+vertex(329, 331.1875);
+vertex(317, 327.1875);
+vertex(298, 322.1875);
+vertex(286, 322.1875);
+vertex(272, 325.1875);
+vertex(262, 325.1875);
+vertex(260, 322.1875);
+endShape(CLOSE);
+           stroke(117, 104, 87); // marró
+          beginShape();//cella esquerra
+vertex(158, 324.1875);
+vertex(162, 318.1875);
+vertex(176, 312.1875);
+vertex(188, 311.1875);
+vertex(205, 312.1875);
+vertex(217, 318.1875);
+vertex(218, 327.1875);
+vertex(206, 323.1875);
+vertex(191, 321.1875);
+vertex(176, 324.1875);
+vertex(165, 331.1875);
+vertex(156, 331.1875);
+vertex(156, 324.1875);
+endShape(CLOSE);
+           stroke(232, 175, 169); // color boca
+         beginShape();//boca
+vertex(214, 457.1875);
+vertex(224, 453.1875);
+vertex(236, 452.1875);
+vertex(241, 455.1875);
+vertex(249, 455.1875);
+vertex(259, 452.1875);
+vertex(274, 458.1875);
+vertex(268, 462.1875);
+vertex(258, 465.1875);
+vertex(243, 468.1875);
+vertex(225, 464.1875);
+vertex(214, 458.1875);
+endShape();
+          stroke(231, 227, 179); // color salmó
+          beginShape();//nas
+vertex(222, 344.1875);
+vertex(218, 356.1875);
+vertex(214, 367.1875);
+vertex(209, 385.1875);
+vertex(207, 394.1875);
+vertex(206, 404.1875);
+vertex(208, 412.1875);
+vertex(214, 419.1875);
+vertex(223, 422.1875);
+vertex(233, 420.1875);
+vertex(240, 417.1875);
+vertex(247, 413.1875);
+vertex(257, 411.1875);
+vertex(262, 401.1875);
+vertex(259, 387.1875);
+vertex(249, 381.1875);
+vertex(252, 365.1875);
+vertex(256, 348.1875);
+vertex(247, 337.1875);
+vertex(232, 331.1875);
+vertex(220, 344.1875);
+endShape(CLOSE);
+           stroke(236, 232, 189); // color pell
+          beginShape();//cara
+vertex(309, 254.1875);
+vertex(273, 252.1875);
+vertex(245, 251.1875);
+vertex(213, 255.1875);
+vertex(184, 261.1875);
+vertex(162, 271.1875);
+vertex(156, 288.1875);
+vertex(156, 300.1875);
+vertex(156, 311.1875);
+vertex(156, 319.1875);
+vertex(158, 326.1875);
+vertex(162, 331.1875);
+vertex(157, 342.1875);
+vertex(158, 352.1875);
+vertex(162, 363.1875);
+vertex(164, 372.1875);
+vertex(170, 389.1875);
+vertex(176, 408.1875);
+vertex(183, 431.1875);
+vertex(186, 451.1875);
+vertex(188, 468.1875);
+vertex(193, 482.1875);
+vertex(203, 505.1875);
+vertex(219, 521.1875);
+vertex(243, 529.1875);
+vertex(267, 529.1875);
+vertex(286, 529.1875);
+vertex(299, 523.1875);
+vertex(318, 509.1875);
+vertex(333, 493.1875);
+vertex(350, 476.1875);
+vertex(358, 468.1875);
+vertex(367, 454.1875);
+vertex(376, 433.1875);
+vertex(379, 427.1875);
+vertex(379, 417.1875);
+vertex(386, 405.1875);
+vertex(395, 405.1875);
+vertex(404, 405.1875);
+vertex(416, 396.1875);
+vertex(425, 381.1875);
+vertex(434, 357.1875);
+vertex(437, 340.1875);
+vertex(431, 326.1875);
+vertex(417, 324.1875);
+vertex(411, 318.1875);
+vertex(419, 313.1875);
+vertex(429, 301.1875);
+vertex(432, 286.1875);
+vertex(423, 278.1875);
+vertex(405, 267.1875);
+vertex(388, 261.1875);
+vertex(362, 256.1875);
+vertex(338, 254.1875);
+vertex(309, 253.1875);
+endShape(CLOSE);
+          break;
+          stroke(146, 136, 135); // gris
+          beginShape();//barret 
+vertex(115, 218.1875);
+vertex(100, 201.1875);
+vertex(90, 194.1875);
+vertex(80, 199.1875);
+vertex(77, 209.1875);
+vertex(76, 222.1875);
+vertex(76, 233.1875);
+vertex(81, 242.1875);
+vertex(88, 250.1875);
+vertex(99, 260.1875);
+vertex(105, 267.1875);
+vertex(114, 270.1875);
+vertex(135, 278.1875);
+vertex(156, 275.1875);
+vertex(176, 266.1875);
+vertex(200, 259.1875);
+vertex(233, 255.1875);
+vertex(268, 252.1875);
+vertex(303, 253.1875);
+vertex(333, 253.1875);
+vertex(368, 256.1875);
+vertex(398, 260.1875);
+vertex(421, 273.1875);
+vertex(436, 288.1875);
+vertex(438, 308.1875);
+vertex(439, 325.1875);
+vertex(438, 344.1875);
+vertex(431, 368.1875);
+vertex(431, 376.1875);
+vertex(441, 376.1875);
+vertex(454, 372.1875);
+vertex(473, 361.1875);
+vertex(487, 344.1875);
+vertex(495, 329.1875);
+vertex(502, 305.1875);
+vertex(500, 283.1875);
+vertex(492, 261.1875);
+vertex(473, 227.1875);
+vertex(450, 209.1875);
+vertex(426, 202.1875);
+vertex(401, 190.1875);
+vertex(394, 165.1875);
+vertex(380, 145.1875);
+vertex(373, 132.1875);
+vertex(365, 116.1875);
+vertex(352, 100.1875);
+vertex(336, 88.1875);
+vertex(315, 88.1875);
+vertex(296, 86.1875);
+vertex(272, 86.1875);
+vertex(253, 92.1875);
+vertex(235, 94.1875);
+vertex(217, 97.1875);
+vertex(202, 109.1875);
+vertex(190, 125.1875);
+vertex(180, 141.1875);
+vertex(173, 165.1875);
+vertex(173, 173.1875);
+vertex(172, 183.1875);
+vertex(167, 196.1875);
+vertex(159, 205.1875);
+vertex(148, 217.1875);
+vertex(130, 218.1875);
+vertex(113, 219.1875);
+endShape(CLOSE);
           break;
 
         case 'surprised':
-          stroke(0,150,255,150); // blau clar
+             stroke(228, 234, 242);// blanc, gris
+       beginShape();//ull dret 
+vertex(272, 340.1875);
+vertex(276, 334.1875);
+vertex(284, 330.1875);
+vertex(295, 329.1875);
+vertex(307, 331.1875);
+vertex(317, 335.1875);
+vertex(322, 339.1875);
+vertex(315, 346.1875);
+vertex(304, 349.1875);
+vertex(292, 347.1875);
+vertex(280, 344.1875);
+vertex(272, 340.1875);
+endShape(CLOSE);
+           stroke(167, 206, 213); // blau clar
+          beginShape();//pupil·la dreta
+vertex(300, 331.1875);
+vertex(295, 333.1875);
+vertex(293, 337.1875);
+vertex(293, 340.1875);
+vertex(295, 342.1875);
+vertex(298, 344.1875);
+vertex(303, 344.1875);
+vertex(307, 343.1875);
+vertex(310, 341.1875);
+vertex(311, 336.1875);
+vertex(307, 333.1875);
+vertex(302, 331.1875);
+vertex(300, 331.1875);
+endShape(CLOSE);
+        stroke(228, 234, 242);// blanc, gris
+          beginShape();//ull esquerre
+vertex(174, 335.1875);
+vertex(179, 331.1875);
+vertex(187, 327.1875);
+vertex(195, 328.1875);
+vertex(204, 330.1875);
+vertex(213, 332.1875);
+vertex(214, 336.1875);
+vertex(210, 340.1875);
+vertex(204, 343.1875);
+vertex(196, 345.1875);
+vertex(186, 343.1875);
+vertex(179, 339.1875);
+vertex(173, 336.1875);
+endShape(CLOSE);
+         stroke(167, 206, 213); // blau clar
+          beginShape();//pupil·la esquerra
+vertex(185, 333.1875);
+vertex(188, 329.1875);
+vertex(193, 327.1875);
+vertex(199, 329.1875);
+vertex(205, 331.1875);
+vertex(206, 336.1875);
+vertex(204, 339.1875);
+vertex(200, 341.1875);
+vertex(196, 342.1875);
+vertex(190, 340.1875);
+vertex(186, 336.1875);
+vertex(184, 333.1875);
+endShape(CLOSE);
+          stroke(117, 104, 87); // marró
+          beginShape();//cella dreta
+vertex(259, 320.1875);
+vertex(270, 309.1875);
+vertex(279, 304.1875);
+vertex(290, 300.1875);
+vertex(304, 300.1875);
+vertex(316, 303.1875);
+vertex(326, 307.1875);
+vertex(334, 312.1875);
+vertex(341, 320.1875);
+vertex(344, 328.1875);
+vertex(340, 331.1875);
+vertex(331, 327.1875);
+vertex(324, 320.1875);
+vertex(311, 315.1875);
+vertex(299, 312.1875);
+vertex(288, 314.1875);
+vertex(277, 316.1875);
+vertex(266, 318.1875);
+vertex(258, 320.1875);
+endShape(CLOSE);
+          stroke(117, 104, 87); // marró
+          beginShape();//cella esquerra
+vertex(219, 323.1875);
+vertex(216, 313.1875);
+vertex(210, 308.1875);
+vertex(201, 305.1875);
+vertex(190, 304.1875);
+vertex(180, 305.1875);
+vertex(170, 310.1875);
+vertex(164, 317.1875);
+vertex(160, 324.1875);
+vertex(160, 326.1875);
+vertex(162, 327.1875);
+vertex(168, 323.1875);
+vertex(174, 319.1875);
+vertex(185, 316.1875);
+vertex(197, 315.1875);
+vertex(207, 318.1875);
+vertex(212, 321.1875);
+vertex(217, 323.1875);
+endShape(CLOSE);
+           stroke(232, 175, 169); // color boca
+         beginShape();//boca
+vertex(220, 476.1875);
+vertex(215, 467.1875);
+vertex(215, 457.1875);
+vertex(220, 445.1875);
+vertex(228, 436.1875);
+vertex(246, 431.1875);
+vertex(254, 431.1875);
+vertex(265, 434.1875);
+vertex(270, 441.1875);
+vertex(276, 456.1875);
+vertex(276, 465.1875);
+vertex(275, 473.1875);
+vertex(271, 484.1875);
+vertex(261, 489.1875);
+vertex(249, 491.1875);
+vertex(234, 489.1875);
+vertex(224, 481.1875);
+vertex(219, 476.1875);
+endShape();
+          stroke(231, 227, 179); // color salmó
+          beginShape();//nas
+vertex(222, 344.1875);
+vertex(218, 356.1875);
+vertex(214, 367.1875);
+vertex(209, 385.1875);
+vertex(207, 394.1875);
+vertex(206, 404.1875);
+vertex(208, 412.1875);
+vertex(214, 419.1875);
+vertex(223, 422.1875);
+vertex(233, 420.1875);
+vertex(240, 417.1875);
+vertex(247, 413.1875);
+vertex(257, 411.1875);
+vertex(262, 401.1875);
+vertex(259, 387.1875);
+vertex(249, 381.1875);
+vertex(252, 365.1875);
+vertex(256, 348.1875);
+vertex(247, 337.1875);
+vertex(232, 331.1875);
+vertex(220, 344.1875);
+endShape(CLOSE);
+           stroke(236, 232, 189); // color pell
+          beginShape();//cara
+vertex(309, 254.1875);
+vertex(273, 252.1875);
+vertex(245, 251.1875);
+vertex(213, 255.1875);
+vertex(184, 261.1875);
+vertex(162, 271.1875);
+vertex(156, 288.1875);
+vertex(156, 300.1875);
+vertex(156, 311.1875);
+vertex(156, 319.1875);
+vertex(158, 326.1875);
+vertex(162, 331.1875);
+vertex(157, 342.1875);
+vertex(158, 352.1875);
+vertex(162, 363.1875);
+vertex(164, 372.1875);
+vertex(170, 389.1875);
+vertex(176, 408.1875);
+vertex(183, 431.1875);
+vertex(186, 451.1875);
+vertex(188, 468.1875);
+vertex(193, 482.1875);
+vertex(203, 505.1875);
+vertex(219, 521.1875);
+vertex(243, 529.1875);
+vertex(267, 529.1875);
+vertex(286, 529.1875);
+vertex(299, 523.1875);
+vertex(318, 509.1875);
+vertex(333, 493.1875);
+vertex(350, 476.1875);
+vertex(358, 468.1875);
+vertex(367, 454.1875);
+vertex(376, 433.1875);
+vertex(379, 427.1875);
+vertex(379, 417.1875);
+vertex(386, 405.1875);
+vertex(395, 405.1875);
+vertex(404, 405.1875);
+vertex(416, 396.1875);
+vertex(425, 381.1875);
+vertex(434, 357.1875);
+vertex(437, 340.1875);
+vertex(431, 326.1875);
+vertex(417, 324.1875);
+vertex(411, 318.1875);
+vertex(419, 313.1875);
+vertex(429, 301.1875);
+vertex(432, 286.1875);
+vertex(423, 278.1875);
+vertex(405, 267.1875);
+vertex(388, 261.1875);
+vertex(362, 256.1875);
+vertex(338, 254.1875);
+vertex(309, 253.1875);
+endShape(CLOSE);
+          stroke(66, 155, 171); // blau
+          beginShape();//barret 
+vertex(115, 218.1875);
+vertex(100, 201.1875);
+vertex(90, 194.1875);
+vertex(80, 199.1875);
+vertex(77, 209.1875);
+vertex(76, 222.1875);
+vertex(76, 233.1875);
+vertex(81, 242.1875);
+vertex(88, 250.1875);
+vertex(99, 260.1875);
+vertex(105, 267.1875);
+vertex(114, 270.1875);
+vertex(135, 278.1875);
+vertex(156, 275.1875);
+vertex(176, 266.1875);
+vertex(200, 259.1875);
+vertex(233, 255.1875);
+vertex(268, 252.1875);
+vertex(303, 253.1875);
+vertex(333, 253.1875);
+vertex(368, 256.1875);
+vertex(398, 260.1875);
+vertex(421, 273.1875);
+vertex(436, 288.1875);
+vertex(438, 308.1875);
+vertex(439, 325.1875);
+vertex(438, 344.1875);
+vertex(431, 368.1875);
+vertex(431, 376.1875);
+vertex(441, 376.1875);
+vertex(454, 372.1875);
+vertex(473, 361.1875);
+vertex(487, 344.1875);
+vertex(495, 329.1875);
+vertex(502, 305.1875);
+vertex(500, 283.1875);
+vertex(492, 261.1875);
+vertex(473, 227.1875);
+vertex(450, 209.1875);
+vertex(426, 202.1875);
+vertex(401, 190.1875);
+vertex(394, 165.1875);
+vertex(380, 145.1875);
+vertex(373, 132.1875);
+vertex(365, 116.1875);
+vertex(352, 100.1875);
+vertex(336, 88.1875);
+vertex(315, 88.1875);
+vertex(296, 86.1875);
+vertex(272, 86.1875);
+vertex(253, 92.1875);
+vertex(235, 94.1875);
+vertex(217, 97.1875);
+vertex(202, 109.1875);
+vertex(190, 125.1875);
+vertex(180, 141.1875);
+vertex(173, 165.1875);
+vertex(173, 173.1875);
+vertex(172, 183.1875);
+vertex(167, 196.1875);
+vertex(159, 205.1875);
+vertex(148, 217.1875);
+vertex(130, 218.1875);
+vertex(113, 219.1875);
+endShape(CLOSE);
                  break;
 
         case 'disgusted':
